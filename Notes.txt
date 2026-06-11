@@ -1,0 +1,77 @@
+Day 1
+Lambda Expressions
+Java Streams
+
+Day 2
+Hibernet
+Its a ORM tool
+Object Relation Mapping
+Maven Project
+Group Id -> pacakage name
+Artifact Id -> project name
+
+Day-6:
+Aspect = Class that contains cross cutting concerns
+	1. Advice = Action that should run at a specific time
+	@Before
+	@After
+	@Around
+	2. Pointcut = Defines where this Advice should apply
+	Example
+	execution(* com.msedcl.service.*.*(..))
+	* = return type of function
+	package
+	* = class
+	* = method
+	(..) = Any number of parameters
+	3. JoinPoint = Actual method execution point
+	It gives runtime information like 
+		method name
+		return type, etc.
+	4. ProceddingJoinPoint
+
+01.06.2026
+https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html
+
+Grafana -> tool used to track logs (Application Observability)
+with this there another tool called alloy -> alloy for log analysis
+
+03.06.2026
+for documentation
+http://localhost:8080/swagger-ui/index.html
+------------------**********----------------------------------------------------
+java -jar <jar_name> --server.port=8081 --springdoc.swagger-ui.enabled=false
+above line is used to change the properties on the file on the go for spring boot microservices
+
+
+08.06.2026
+1. Spring MVC File Upload, Jsp, css, js
+2. Stream API - New feature
+3. Var
+4. Records
+
+09.06.2026
+Junit - Testing simple java Apllication
+Mockito - Testing REST api --> H2 database
+dependency
+h2 db
+Sprinf Data JPA
+Spring web
+lombok
+Spring dev tools
+
+--Pattern matching switch case
+
+--This to learn on our own
+1. Graal VN
+2. AOT
+
+10.06.2026
+Service Discovery
+
+11.06.2026
+1. Employee-Department Microservice
+2. Circuit Breaker Pattern (Demo)
+	Retry Pattern --Theory
+	Rate limiter Pattern -- Theory
+3. Spring Security - JWT
